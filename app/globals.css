@@ -1,0 +1,576 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Gilroy-Regular;
+}
+.topbar{
+  background: rgba(247,247,247,1);
+      padding: 10px;
+}
+.topbar a{
+  font-family: Gilroy-Regular;
+  text-decoration: none;
+  color: #000;
+}
+.topbar a:hover, .topMenu a:hover{
+  color:#85001b !important;
+}
+.topbar ul {
+  padding: 0px;
+  display: flex;
+  gap: 10px;
+  margin:0px
+}
+.topbar p{
+  margin: 0px !important;
+  font-family: Gilroy-Regular;
+  color: #bbbbbb;
+}
+.topbar i{
+  color:#85001b;
+} 
+.social i:hover{
+  color:#000;
+}
+.topMenu ul{
+  display: flex;
+  gap:30px;
+  margin: 0px;
+}
+.topMenu a{
+  text-transform: uppercase;
+  color:#000;
+  font-family: Gilroy-Regular !important;
+  text-decoration: none !important;
+ }
+ .logo{
+  width: 150px;
+ }
+ .footer{
+    background: rgba(33, 37, 41, 1);
+    padding: 50px 0px;
+ }
+ .footerMenu ul{
+    display: flex;
+    padding: 0px;
+    gap: 20px;
+    width: 100%;
+    justify-content: center;
+    color: #fff;
+    font-family: 'Gilroy-Regular';
+    text-transform: uppercase;
+ }
+ a{
+  text-decoration: none !important;
+ }
+ .footerMenu a{
+  color:#fff;
+  font-family: Gilroy-Regular;
+ }
+.footer h4, .footer h5{
+  color: #fff;
+  text-transform: uppercase;
+  font-family: Gilroy-Regular;
+  font-weight: 800;
+  border-bottom: 1px solid #ffffff33;
+  padding-bottom: 10px;
+  margin-top: 20px;
+}
+.footer h5{
+  margin-top: 20px;
+  font-size: 15px;
+}
+.footer a{
+  color: #fff;
+  font-family: 'Gilroy-Regular';
+  font-weight: 200;
+  display: block;
+}
+.footer ul{
+  padding: 0px;
+}
+.footer ul li{
+  padding-bottom: 5px;
+}
+.footer a:hover{
+  color:#85001b
+}
+.copyright{
+  background: #000000;
+  padding: 10px 0px;
+  color: #fff;
+  font-family: 'Gilroy-Regular';
+}
+
+.webdevider{
+  padding: 0px 10px;
+}
+.copyright p, .copyright a{
+  margin: 0px;
+  color: #ffffff75;
+  font-size: 12px;
+}
+.copyright a:hover{
+  color: #fff;
+}
+.footer .social i:hover{
+  color:#85001b;
+}
+.expertTip{
+  background-image: url('https://img.magnific.com/free-photo/cute-girl-pretty-adorable-girl-pink-shirt-with-red-lipstick-dreaming-with-white-lollipop_140725-166206.jpg?t=st=1780143890~exp=1780147490~hmac=ea0723f71f2ecbe262fc513344714a67a0fb304dbf763d9a1ee46f4aedbf011b&w=1480');
+  padding: 100px 0px;
+  background-size: cover;
+  background-position: center;
+}
+.outside{
+  background-image: url('https://www.divinecosmeticsurgery.com/wp-content/uploads/2022/08/bg1.webp?id=21697');
+  padding: 100px 0px;
+  background-size: cover;
+  background-position: center;
+}
+.expertForm{
+  background: #fff;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 10px -5px;
+  box-shadow: 0px 10px 10px -5px #00000036;
+}
+.expertForm h2{
+  color: #000;
+  font-family: 'Gilroy-Regular';
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  font-size: 45px;
+  margin-bottom: 40px;
+}
+.form-control{
+  font-family: 'Gilroy-Regular' !important;
+  margin-bottom: 20px !important;
+  padding: 15px !important;
+}
+.btn-primary{
+  font-family: 'Gilroy-Regular' !important;
+  text-transform: uppercase !important;
+  background: #85001b !important;
+  border-color: #85001b !important;
+  padding: 10px 30px !important;
+}
+.btn-primary:hover{
+  background: #fff !important;
+  color: #85001b !important;
+}
+.expertForm h2 strong, .outBox h2 strong, strong {
+  color: #85001b;
+}
+.alert{
+    padding: 5px 20px !important;
+    border-radius: 100px !important;
+    width: fit-content;
+    font-family: 'Gilroy-Regular';
+    font-size: 14px !important;
+    line-height: 20px !important;
+
+}
+.info{
+  background-color: #ffeae0;
+  padding: 50px 0px
+}
+.infoBox{
+  font-family: 'Gilroy-Regular';
+  padding: 20px;
+  background: #fbd9c8;
+  border-radius: 10px;
+}
+.infoBox h3{
+  font-size: 22px;
+  margin-left: 10px;
+}
+.infoBox .icon i{
+  font-size: 22px;
+  margin-top: -8px;
+  color: #85001b;
+}
+.infoBox p{
+  height: 75px !important;
+}
+.infoBox a{
+  color: #85001b;
+}
+.infoBox i{
+  font-size: 12px;
+}
+.outBox h2{
+  color: #000;
+  font-family: 'Gilroy-Regular';
+  font-size: 45px;
+}
+.lead{
+  font-family: 'Gilroy-Regular';
+  font-size: 25px !important;
+}
+.facBox{
+  background: #fff;
+  width: 100%;
+  padding: 20px;
+  border-radius: 20px;
+  font-family: 'Gilroy-Regular';
+}
+.facBox i{
+  background: #85001b ;
+  padding: 10px 23px 10px 10px;
+  color: #fff;
+  line-height: 13px;
+  border-radius: 100px;
+}
+.facBox p{
+  font-size: 18px;
+}
+.blogs{
+  padding: 50px 0px;
+}
+.blogs h2{
+  font-family:'Gilroy-Regular';
+  font-size: 35px;
+}
+.blogs p, h3, h5{
+  font-family: 'Gilroy-Regular';
+}
+.blogs .swiper img{
+  height: 250px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.blogs h3{
+  font-size:18px;
+  color: #85001b;
+}
+.blogs h5{
+  font-size: 12px !important;
+  color: #0000006e;
+}
+.blogs img{
+  border-radius: 10px !important;
+}
+.slideBox{
+  border: 1px solid #8c8c8c4d !important;
+  border-radius: 10px !important;
+  padding:20px !important;
+}
+.blogs a{
+  font-size: 12px !important;
+  padding: 0px;
+  font-family: 'Gilroy-Regular';
+  color: #85001b;
+  text-transform: uppercase;
+}
+.viewMore{
+  margin-top: -45px;
+  color: #fff;
+}
+.viewMore a{
+  color:#fff !important;
+  font-size: 16px !important;
+  border-bottom: 1px solid #fff !important;
+}
+.blog-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.blog-card img {
+    width: 100%;
+    transition: transform 0.5s ease;
+}
+.blog-card:hover img {
+    transform: scale(1.1);
+}
+.overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.55);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.4s ease;
+}
+.blog-card:hover .overlay {
+    opacity: 1;
+}
+.overlay a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+.blogs p{
+  font-size: 15px;
+}
+.about {
+  padding:50px 0px;
+  font-family:'Gilroy-Regular';
+  background: #f7f7f7;
+}
+.about h2{
+  font-size: 35px;
+}
+.about .lead{
+  font-size: 20px !important;
+}
+.about h3{
+  color: #85001b;
+  font-size: 30px;
+  font-weight: 600;
+  padding: 10px 0px 0px;
+}
+.about h6{
+  font-size: 18px;
+}
+.aboutAmit{
+  background: #90001b;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+.aboutAmit p{
+  font-size: 16px;
+}
+.about p{
+  font-size: 16px;
+}
+.blockquote h5{
+  font-size: 32px;
+  font-style: italic;
+}
+.blockquote{
+  background: #90001b;
+  color: #fff;
+  padding: 20px;
+  font-size: 63px;
+  border-radius: 10px;
+}
+.blockquote h4{
+  font-size: 55px;
+  line-height: 60px;
+}
+.blockquote h5{
+  margin-top: -26px;
+  margin-left: 25px;
+  padding-bottom: 40px;
+}
+.list ul{
+  padding: 0px;
+}
+.list i{
+  color: #fff;
+  background: #85001b;
+  border-radius: 100px;
+  padding: 10px 23px 10px 10px;
+  line-height: 13px;
+}
+.list li{
+  padding-bottom: 10px;
+}
+.achievement{
+  padding: 30px 0px;
+}
+.achievement h4{
+  font-size: 20px;
+  font-weight: 700;
+}
+.procedure{
+  padding:50px 0px;
+  font-family: 'Gilroy-Regular';
+}
+.procedure h5{
+  border: 1px solid #85001b;
+  padding: 5px 30px;
+  width: fit-content;
+  margin: auto;
+  border-radius: 100px;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #85001b;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.procedure h2{
+  font-size: 35px;
+  margin-bottom:20px;
+}
+.procedureBox{
+  text-align: center;
+  margin-top: 20px;
+}
+.procedureBox img{
+  margin: auto;
+}
+.procedureBox h3{
+  font-size: 20px;
+  font-weight: 600;
+}
+.procedure1{
+  background: url(https://divinecosmeticsurgery.com/wp-content/uploads/2020/11/Breast-Augmentation.jpg?id=15475);
+  padding: 20px;
+  border-radius: 10px;
+  background-size: cover;
+}
+.procedure2{
+  background: url('https://divinecosmeticsurgery.com/wp-content/uploads/2020/11/Breast-Reduction.jpg?id=15477');
+  padding: 20px;
+  border-radius: 10px;
+  background-size: cover;
+}
+.procedure3{
+  background: url('https://divinecosmeticsurgery.com/wp-content/uploads/2020/11/Breast-Lift.jpg?id=15478');
+  padding: 20px;
+  border-radius: 10px;
+  background-size: cover;
+}
+.procedures h3{
+  font-size: 20px;
+  font-weight: 600;
+}
+.procedures h5{
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+  padding-top: 100px;
+  font-size: 18px;
+  font-weight: 100;
+  color: #000;
+}
+.procedures a{
+  color: #85001b ;
+  margin-top: 20px !important;
+  display: block;
+  font-weight: 600;
+  font-size: 18px;
+}
+.procedure .active img
+{
+  border: 3px solid #85001b;
+  border-radius: 100%;
+  padding: 0;
+}
+.news{
+  padding: 50px 0px;
+  font-family: Gilroy-Regular;
+}
+.news h2{
+  margin-bottom: 20px !important;
+  font-family: 35px !important;
+}
+.swiper-pagination{
+  position: relative !important;
+  margin-top: 25px !important;
+}
+.swiper-pagination-bullet-active{
+  background-color: #85001b !important;
+}
+.videos{
+  background: #f7f7f7;
+  padding: 50px 0px;
+}
+.videos h2{
+  font-family: 'Gilroy-Regular';
+  font-family: 35px !important;
+}
+iframe{
+  border-radius: 10px;
+}
+.reviews{
+  padding: 50px 0px;
+  background-color: #ffeae0;
+  font-family: Gilroy-Regular;
+  
+}
+.reviews h2{
+  font-family: 'Gilroy-Regular';
+  font-size: 35px !important;
+}
+.reviews h4{
+  font-size: 20px !important;
+  color: #85001b;
+}
+.flag, .video{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.flag img{
+  border-radius: 100%;
+  padding: 0px;
+  width: 80px;
+}
+.video{
+  background: #85001b;
+  width: fit-content;
+  color: #fff;
+  padding: 5px 20px;
+  border-radius: 100px;
+}
+.procedureMenu{
+  background: #90001b;
+}
+.navbar-nav{
+  gap: 20px;
+}
+.procedureMenu a{
+  color:#fff;
+  font-family: Gilroy-Regular;
+}
+.video a{
+  color: #000;
+}
+.reviewInfo {
+  padding: 40px 0px;
+}
+.description p{
+  font-size: 20px;
+  font-weight: 400;
+}
+.reviews a{
+  color:#000 !important;
+}
+.reviewImg img{
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+.swiper-wrapper{
+  align-items: center !important;
+}
+.hashtag{
+  font-size: 25px;
+  font-weight: 500;
+  color: #85001b;
+}
+.navbar a:hover{
+  color: #ffeae0;
+}
