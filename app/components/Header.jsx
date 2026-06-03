@@ -40,7 +40,7 @@ export default function Header() {
                             </button>
                             <div class="navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav m-auto mb-2 mb-lg-0">
-                                <li class="nav-item">
+                                <li class="nav-item" >
                                 <a class="nav-link" aria-current="page" href="#">Hair</a>
                                 </li>
                                 <li class="nav-item">
@@ -73,7 +73,7 @@ export default function Header() {
                             </ul>
                             </div>
                         </div>
-                        </nav>
+                    </nav>
                 </div>
             </div>
         </div>

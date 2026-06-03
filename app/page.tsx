@@ -23,8 +23,7 @@ export default function Home() {
     <Reviews />
     <News />
     <Blogs />
-    <Videos />
-    {/* <Instagram /> */}
+    <Instagram />
     <Info />
     <Expert />
     <Footer />
