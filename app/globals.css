@@ -145,7 +145,7 @@ body {
   /* background-position: center; */
 }
 .outside{
-  background-image: url('https://www.divinecosmeticsurgery.com/wp-content/uploads/2022/08/bg1.webp?id=21697');
+  background-image: url('/images/bg1.webp');
   padding: 100px 0px;
   background-size: cover;
   background-position: center;
@@ -441,19 +441,19 @@ body {
   font-weight: 600;
 }
 .procedure1{
-  background: url(https://divinecosmeticsurgery.com/wp-content/uploads/2020/11/Breast-Augmentation.jpg?id=15475);
+  background: url('/images/Breast-Augmentation.webp');
   padding: 20px;
   border-radius: 10px;
   background-size: cover;
 }
 .procedure2{
-  background: url('https://divinecosmeticsurgery.com/wp-content/uploads/2020/11/Breast-Reduction.jpg?id=15477');
+  background: url('/images/Breast-Reduction.webp');
   padding: 20px;
   border-radius: 10px;
   background-size: cover;
 }
 .procedure3{
-  background: url('https://divinecosmeticsurgery.com/wp-content/uploads/2020/11/Breast-Lift.jpg?id=15478');
+  background: url('/images/Breast-Augmentation.webp');
   padding: 20px;
   border-radius: 10px;
   background-size: cover;
@@ -603,11 +603,18 @@ iframe{
   font-family: 'Gilroy-Regular';
 }
 .instaBox img{
-  border-radius: 100px;
+  border-radius: 100px !important;
   height: fit-content !important;
+  margin: 0px !important;
+}
+iframe{
+  min-height: 400px;
 }
 .instagram h4{
   font-weight: 600;
+}
+.slider img{
+  width: 100%;
 }
 .instagram p{
   color:#a31834 !important

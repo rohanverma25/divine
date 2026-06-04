@@ -1,5 +1,6 @@
 import Topbar from '../components/Topbar';
 import Link from 'next/link';
+import Image from 'next/image';
 export default function Header() {
   return (
     <>
@@ -8,7 +9,12 @@ export default function Header() {
       <div className="row align-items-center">
         <div className="col-md-2">
             <div className='logo'>
-                <img src="https://www.divinecosmeticsurgery.com/wp-content/uploads/2025/10/divine-long-logo.png" className="img-fluid" />
+                <Image
+                    src="/images/divine-long-logo.webp"
+                    alt="Banner"
+                    width={150}
+                    height={106}
+                />
             </div>
         </div>
         <div className="col-md-10">
@@ -33,42 +39,42 @@ export default function Header() {
         <div className='container'>
             <div className="row">
                 <div className="col-md-12">
-                    <nav class="navbar navbar-expand-lg p-0">
-                        <div class="container-fluid">
-                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
+                    <nav className="navbar navbar-expand-lg p-0">
+                        <div className="container-fluid">
+                            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span className="navbar-toggler-icon"></span>
                             </button>
-                            <div class="navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
-                                <li class="nav-item" >
-                                <a class="nav-link" aria-current="page" href="#">Hair</a>
+                            <div className="navbar-collapse" id="navbarSupportedContent">
+                            <ul className="navbar-nav m-auto mb-2 mb-lg-0">
+                                <li className="nav-item" >
+                                <a className="nav-link" aria-current="page" href="#">Hair</a>
                                 </li>
-                                <li class="nav-item">
-                                <a class="nav-link" href="#">Breast</a>
+                                <li className="nav-item">
+                                <a className="nav-link" href="#">Breast</a>
                                 </li>
-                                <li class="nav-item">
-                                <a class="nav-link" href="#">Gynecomastia</a>
+                                <li className="nav-item">
+                                <a className="nav-link" href="#">Gynecomastia</a>
                                 </li>
-                                <li class="nav-item">
-                                <a class="nav-link" href="#">Tummy Tuck</a>
+                                <li className="nav-item">
+                                <a className="nav-link" href="#">Tummy Tuck</a>
                                 </li>
-                                <li class="nav-item">
-                                <a class="nav-link" href="#">Designer Vagina</a>
+                                <li className="nav-item">
+                                <a className="nav-link" href="#">Designer Vagina</a>
                                 </li>
-                                <li class="nav-item">
-                                <a class="nav-link" href="#">Mommy Makeover</a>
+                                <li className="nav-item">
+                                <a className="nav-link" href="#">Mommy Makeover</a>
                                 </li>
-                                <li class="nav-item">
-                                <a class="nav-link" href="#">Face, Fillers</a>
+                                <li className="nav-item">
+                                <a className="nav-link" href="#">Face, Fillers</a>
                                 </li>
-                                <li class="nav-item">
-                                <a class="nav-link" href="#">For Men</a>
+                                <li className="nav-item">
+                                <a className="nav-link" href="#">For Men</a>
                                 </li>
-                                <li class="nav-item">
-                                <a class="nav-link" href="#">Body Contouring</a>
+                                <li className="nav-item">
+                                <a className="nav-link" href="#">Body Contouring</a>
                                 </li>
-                                <li class="nav-item">
-                                <a class="nav-link" href="#">International</a>
+                                <li className="nav-item">
+                                <a className="nav-link" href="#">International</a>
                                 </li>
                             </ul>
                             </div>

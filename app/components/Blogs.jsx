@@ -38,10 +38,10 @@ export default function Blogs() {
                         <div className="col-md-4">
                             <div className="slideBox mt-4">
                                 <Image
-                                    src="https://www.divinecosmeticsurgery.com/wp-content/uploads/2019/05/Worried-About-No-Donor-Area-Opt-For-Synthetic-Hair-Transplant.jpg"
+                                    src="/images/Worried-About-No-Donor-Area-Opt-For-Synthetic-Hair-Transplant.webp"
                                     alt={`Slide 1`}
-                                    width={1920}
-                                    height={800}
+                                    width={375}
+                                    height={215}
                                     className="w-full object-cover"
                                 />
                                 <h3>Worried About No Donor Area? Opt For Synthetic Hair Transplant</h3>
@@ -53,10 +53,10 @@ export default function Blogs() {
                             <div className="col-md-4 mt-4">
                                 <div className="slideBox">
                                 <Image
-                                    src="https://www.divinecosmeticsurgery.com/wp-content/uploads/2019/05/Worried-About-No-Donor-Area-Opt-For-Synthetic-Hair-Transplant.jpg"
+                                    src="/images/Worried-About-No-Donor-Area-Opt-For-Synthetic-Hair-Transplant.webp"
                                     alt={`Slide 1`}
-                                    width={1920}
-                                    height={800}
+                                    width={375}
+                                    height={215}
                                     className="w-full object-cover"
                                 />
                                 <h3>Worried About No Donor Area? Opt For Synthetic Hair Transplant</h3>
@@ -68,10 +68,10 @@ export default function Blogs() {
                             <div className='col-md-4 mt-4'>
                                 <div className="slideBox">
                                 <Image
-                                    src="https://www.divinecosmeticsurgery.com/wp-content/uploads/2019/05/Worried-About-No-Donor-Area-Opt-For-Synthetic-Hair-Transplant.jpg"
+                                    src="/images/Worried-About-No-Donor-Area-Opt-For-Synthetic-Hair-Transplant.webp"
                                     alt={`Slide 1`}
-                                    width={1920}
-                                    height={800}
+                                    width={375}
+                                    height={215}
                                     className="w-full object-cover"
                                 />
                                 <h3>Worried About No Donor Area? Opt For Synthetic Hair Transplant</h3>

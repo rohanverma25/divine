@@ -20,37 +20,67 @@ export default function Procedure() {
                         </div>
                         <div className='col-md-2'>
                             <div className="procedureBox active">
-                                <img src="https://www.divinecosmeticsurgery.com/wp-content/uploads/2020/11/breast.png" className='img-fluid' />
+                                <Image
+                                    src="/images/hair-transplant.webp"
+                                    alt="Banner"
+                                    width={90}
+                                    height={90}
+                                />
                                 <h3>Breast</h3>
                             </div>
                         </div>
                         <div className='col-md-2'>
                             <div className="procedureBox">
-                                <img src="https://www.divinecosmeticsurgery.com/wp-content/uploads/2020/11/hair-transplant.png" className='img-fluid' />
+                                <Image
+                                    src="/images/hair-transplant.webp"
+                                    alt="Banner"
+                                    width={90}
+                                    height={90}
+                                />
                                 <h3>Hair Transplant</h3>
                             </div>
                         </div>
                         <div className='col-md-2'>
                             <div className="procedureBox">
-                                <img src="https://www.divinecosmeticsurgery.com/wp-content/uploads/2020/11/skin.png" className='img-fluid' />
+                                <Image
+                                    src="/images/skin.webp"
+                                    alt="Banner"
+                                    width={90}
+                                    height={90}
+                                />
                                 <h3>Skin</h3>
                             </div>
                         </div>
                         <div className='col-md-2'>
                             <div className="procedureBox">
-                                <img src="https://www.divinecosmeticsurgery.com/wp-content/uploads/2020/11/body-countouring.png" className='img-fluid' />
+                                <Image
+                                    src="/images/body-countouring.webp"
+                                    alt="Banner"
+                                    width={90}
+                                    height={90}
+                                />
                                 <h3>Body Contouring</h3>
                             </div>
                         </div>
                         <div className='col-md-2'>
                             <div className="procedureBox">
-                                <img src="https://www.divinecosmeticsurgery.com/wp-content/uploads/2020/11/male-treatments.png" className='img-fluid' />
+                                <Image
+                                    src="/images/male-treatments.webp"
+                                    alt="Banner"
+                                    width={90}
+                                    height={90}
+                                />
                                 <h3>Male Treatments</h3>
                             </div>
                         </div>
                         <div className='col-md-2'>
                             <div className="procedureBox">
-                                <img src="https://www.divinecosmeticsurgery.com/wp-content/uploads/2020/11/female-rejuvenation.png" className='img-fluid' />
+                                <Image
+                                    src="/images/female-rejuvenation.webp"
+                                    alt="Banner"
+                                    width={90}
+                                    height={90}
+                                />
                                 <h3>Female Rejuvenation</h3>
                             </div>
                         </div>

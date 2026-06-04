@@ -40,10 +40,10 @@ export default function News() {
                                 <SwiperSlide key="1">
                                     <div>
                                 <Image
-                                    src="https://www.divinecosmeticsurgery.com/wp-content/uploads/2024/01/n4.png"
+                                    src="/images/n2.webp"
                                     alt={`Slide 1`}
-                                    width={1920}
-                                    height={800}
+                                    width={180}
+                                    height={90}
                                     className="w-full object-cover"
                                 />
                                 </div>
@@ -51,7 +51,7 @@ export default function News() {
                                 <SwiperSlide key="2">
                                 <div>
                                 <Image
-                                    src="https://www.divinecosmeticsurgery.com/wp-content/uploads/2024/01/n5.png"
+                                    src="/images/n3.webp"
                                     alt={`Slide 1`}
                                     width={1920}
                                     height={800}
@@ -62,7 +62,7 @@ export default function News() {
                                 <SwiperSlide key="3">
                                 <div>
                                 <Image
-                                    src="https://www.divinecosmeticsurgery.com/wp-content/uploads/2024/01/n3.png"
+                                    src="/images/n4.webp"
                                     alt={`Slide 1`}
                                     width={1920}
                                     height={800}
@@ -73,7 +73,7 @@ export default function News() {
                                 <SwiperSlide key="4">
                                 <div>
                                 <Image
-                                    src="https://www.divinecosmeticsurgery.com/wp-content/uploads/2024/03/India-today.png"
+                                    src="/images/n5.webp"
                                     alt={`Slide 1`}
                                     width={1920}
                                     height={800}
@@ -84,7 +84,7 @@ export default function News() {
                                 <SwiperSlide key="5">
                                 <div>
                                 <Image
-                                    src="https://www.divinecosmeticsurgery.com/wp-content/uploads/2024/01/n2.png"
+                                    src="/images/n6.webp"
                                     alt={`Slide 1`}
                                     width={1920}
                                     height={800}
@@ -95,7 +95,7 @@ export default function News() {
                                 <SwiperSlide key="6">
                                 <div>
                                 <Image
-                                    src="https://www.divinecosmeticsurgery.com/wp-content/uploads/2024/01/n6.png"
+                                    src="/images/n2.webp"
                                     alt={`Slide 1`}
                                     width={1920}
                                     height={800}

@@ -1,8 +1,15 @@
+import Image from 'next/image';
 export default function Slider() {
     return(
         <>
         <section className="slider">
-            <img src="https://www.divinecosmeticsurgery.com/wp-content/uploads/2022/12/Do-you-know-why-divine-is-trusted.webp" className="w-100 img-fluid"/>
+            <Image
+                src="/images/Do-you-know-why-divine-is-trusted.webp"
+                alt="Banner"
+                width={1520}
+                height={507}
+                fetchpriority="high"
+            />
         </section>
         </>
     )

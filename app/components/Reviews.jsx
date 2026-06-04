@@ -1,10 +1,4 @@
 'use client';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Autoplay } from 'swiper/modules';
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import Image from 'next/image';
 import Link from 'next/link';
 import "../globals.css";
 
@@ -33,7 +27,7 @@ export default function Reviews() {
                         </div>
                         <div className="col-md-6">
                             <div className='vid'>
-                                <iframe title="Transformative Breast Reduction Surgery with Lift in India: Hear from an Australian Patient's Review" width="100%" height="350" src="https://www.youtube.com/embed/Vidjf-o5F3A?list=PLtrJgcRamie-IXs7BFRtfLa76yP3sRFbt" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="" data-gtm-yt-inspected-15="true" id="_dytid_7649"></iframe>
+                                <iframe  loading="lazy" width="100%" height="350" title="Transformative Breast Reduction Surgery with Lift in India: Hear from an Australian Patient's Review" src="https://www.youtube.com/embed/Vidjf-o5F3A?list=PLtrJgcRamie-IXs7BFRtfLa76yP3sRFbt" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen data-gtm-yt-inspected-15="true" id="_dytid_7649"></iframe>
                                 <div className='m-auto text-center pt-3'>
                                     <Link href="/" className='btn btn-primary text-white'>More Videos</Link>
                                 </div>

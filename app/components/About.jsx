@@ -20,7 +20,13 @@ export default function About() {
                         </div>
                         <div className="col-md-5">
                             <div className='aboutImg text-center'>
-                                <img src="https://www.divinecosmeticsurgery.com/wp-content/uploads/2022/08/amit.webp" className="img-fluid m-auto"/>
+                                <Image
+                                    src="/images/amit.webp"
+                                    alt="Banner"
+                                    width={400}
+                                    height={400}
+                                    className="m-auto"
+                                />
                                 <h3>Dr. Amit Gupta</h3>
                                 <h6>Super Specialist Plastic & Aesthetic Surgeon</h6>
                                 <div className="aboutAmit">
