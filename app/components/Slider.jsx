@@ -8,7 +8,7 @@ export default function Slider() {
                 alt="Banner"
                 width={1520}
                 height={507}
-                fetchpriority="high"
+                priority
             />
         </section>
         </>
