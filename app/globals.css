@@ -626,6 +626,9 @@ iframe{
   border-radius: 10px;
   object-fit: cover;
 }
+  .mobile{
+    display: none !important;
+  }
 @media (max-width: 768px) {
   .footerMenu ul{
     text-align: center;
@@ -756,6 +759,12 @@ iframe{
   }
   .procedureMenu{
     display: none;
+  }
+  .desktop{
+    display: none !important;
+  }
+  .mobile{
+    display: block !important;
   }
 }
 
