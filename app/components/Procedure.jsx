@@ -18,7 +18,7 @@ export default function Procedure() {
                             <h5 className='text-center'>MAMC trained Plastic Surgeon in Delhi</h5>
                             <h2 className='text-center'>Dr. Amit Gupta With <strong>19+ Years of Experience</strong></h2>
                         </div>
-                        <div className='col-md-2'>
+                        <div className='col-md-2 col-4'>
                             <div className="procedureBox active">
                                 <Image
                                     src="/images/hair-transplant.webp"
@@ -29,7 +29,7 @@ export default function Procedure() {
                                 <h3>Breast</h3>
                             </div>
                         </div>
-                        <div className='col-md-2'>
+                        <div className='col-md-2 col-4'>
                             <div className="procedureBox">
                                 <Image
                                     src="/images/hair-transplant.webp"
@@ -40,7 +40,7 @@ export default function Procedure() {
                                 <h3>Hair Transplant</h3>
                             </div>
                         </div>
-                        <div className='col-md-2'>
+                        <div className='col-md-2 col-4'>
                             <div className="procedureBox">
                                 <Image
                                     src="/images/skin.webp"
@@ -51,7 +51,7 @@ export default function Procedure() {
                                 <h3>Skin</h3>
                             </div>
                         </div>
-                        <div className='col-md-2'>
+                        <div className='col-md-2 col-4'>
                             <div className="procedureBox">
                                 <Image
                                     src="/images/body-countouring.webp"
@@ -62,7 +62,7 @@ export default function Procedure() {
                                 <h3>Body Contouring</h3>
                             </div>
                         </div>
-                        <div className='col-md-2'>
+                        <div className='col-md-2 col-4'>
                             <div className="procedureBox">
                                 <Image
                                     src="/images/male-treatments.webp"
@@ -73,7 +73,7 @@ export default function Procedure() {
                                 <h3>Male Treatments</h3>
                             </div>
                         </div>
-                        <div className='col-md-2'>
+                        <div className='col-md-2 col-4'>
                             <div className="procedureBox">
                                 <Image
                                     src="/images/female-rejuvenation.webp"

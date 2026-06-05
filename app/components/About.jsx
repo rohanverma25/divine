@@ -40,22 +40,22 @@ export default function About() {
                                 <p>Divine Aesthetics is one of India’s leading plastic surgery hospital with over 19+ years of experience in advanced cosmetic and aesthetic procedures. Divine Aesthetics is committed to delivering world-class aesthetic care with innovation, expertise, and personalized treatment.</p>
                                 <div className="achievement">
                                     <div className="row align-items-center">
-                                        <div className="col-md-6">
+                                        <div className="col-md-6 col-6">
                                             <div className='row align-items-center'>
-                                                <div className="col-md-2">
+                                                <div className="col-md-2 col-3">
                                                     <img src="https://www.divinecosmeticsurgery.com/wp-content/uploads/2020/11/award-icon.png" className="img-fluid"/>
                                                 </div>
-                                                <div className="col-md-8">
+                                                <div className="col-md-8 col-9">
                                                     <h4>21000+ Plastic Surgeries</h4>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="col-md-6">
+                                        <div className="col-md-6 col-6">
                                             <div className='row align-items-center'>
-                                                <div className="col-md-2">
+                                                <div className="col-md-2 col-3">
                                                     <img src="https://www.divinecosmeticsurgery.com/wp-content/uploads/2020/11/award-icon.png" className="img-fluid"/>
                                                 </div>
-                                                <div className="col-md-8">
+                                                <div className="col-md-8 col-9">
                                                     <h4>International Speaker & Trainer</h4>
                                                 </div>
                                             </div>
@@ -64,10 +64,10 @@ export default function About() {
                                 </div>
                                 <div className='list'>
                                     <ul>
-                                        <li><i className="fa fa-check"></i>&nbsp;&nbsp;Dr. Amit Gupta is amongst India’s most sought-after plastic surgeon</li>
-                                        <li><i className="fa fa-check"></i>&nbsp;&nbsp;Invited Speaker in many international conferences</li>
-                                        <li><i className="fa fa-check"></i>&nbsp;&nbsp;Researcher – many International Research Papers</li>
-                                        <li><i className="fa fa-check"></i>&nbsp;&nbsp;A renowned expert in <strong>Hair transplant, Gynecomastia, 4D body contouring, and Breast Implant procedures</strong></li>
+                                        <li><i className="fa fa-check"></i>Dr. Amit Gupta is amongst India’s most sought-after plastic surgeon</li>
+                                        <li><i className="fa fa-check"></i>Invited Speaker in many international conferences</li>
+                                        <li><i className="fa fa-check"></i>Researcher – many International Research Papers</li>
+                                        <li><i className="fa fa-check"></i>A renowned expert in <strong>Hair transplant, Gynecomastia, 4D body contouring, and Breast Implant procedures</strong></li>
                                     </ul>
                                 </div>
                                 <div className='blockquote'>
@@ -76,7 +76,7 @@ export default function About() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-12 text-center mt-5">
+                        <div className="col-md-12 text-center mt-2">
                             <Link href="https://my.crisalix.com/signup/amit-gupta-2" className="btn btn-primary">Book 4D Consultation</Link>
                         </div>
                     </div>

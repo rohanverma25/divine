@@ -11,7 +11,7 @@ import "../globals.css";
 export default function News() {
     return(
         <>
-            <section className="news">
+            <section className="news pb-0">
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-md-12">
@@ -27,7 +27,7 @@ export default function News() {
                                 loop={true}
                                 breakpoints={{
                                     320: {
-                                    slidesPerView: 1,
+                                    slidesPerView: 2,
                                     },
                                     768: {
                                     slidesPerView: 2,

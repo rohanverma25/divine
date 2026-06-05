@@ -58,7 +58,7 @@ export default function Footer() {
           </div>
           <div className="col-md-8">
             <div className="row">
-              <div className="col-md-4">
+              <div className="col-md-4 col-6">
                 <h5>Face & Neck</h5>
                 <ul>
                   <li><Link href="">Facelift</Link></li>
@@ -67,7 +67,7 @@ export default function Footer() {
                   <li><Link href="">Asian Blepharoplasty</Link></li>
                 </ul>
               </div>
-              <div className="col-md-4">
+              <div className="col-md-4 col-6">
                 <h5>Breast</h5>
                 <ul>
                   <li><Link href="">Breast Augmentation</Link></li>
@@ -75,7 +75,7 @@ export default function Footer() {
                   <li><Link href="">Breast Reduction</Link></li>
                 </ul>
               </div>
-              <div className="col-md-4">
+              <div className="col-md-4 col-6">
                 <h5>Tummy Tuck</h5>
                 <ul>
                   <li><Link href="">Tummy Tuck</Link></li>
@@ -83,7 +83,7 @@ export default function Footer() {
                   <li><Link href="">Liposuction</Link></li>
                 </ul>
               </div>
-              <div className="col-md-4">
+              <div className="col-md-4 col-6">
                 <h5>Mommy</h5>
                 <ul>
                   <li><Link href="">Liposuction</Link></li>
@@ -92,7 +92,7 @@ export default function Footer() {
                   <li><Link href="">Genital Rejuvenation</Link></li>
                 </ul>
               </div>
-              <div className="col-md-4">
+              <div className="col-md-4 col-6">
                 <h5>Male</h5>
                 <ul>
                   <li><Link href="">Gynecomastia</Link></li>
@@ -101,7 +101,7 @@ export default function Footer() {
                   <li><Link href="">Liposuction</Link></li>
                 </ul>
               </div>
-              <div className="col-md-4">
+              <div className="col-md-4 col-6">
                 <h5>Quick Links</h5>
                 <ul>
                   <li><Link href="">Web Stories</Link></li>

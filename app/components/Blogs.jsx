@@ -19,19 +19,19 @@ export default function Blogs() {
                             <p className='text-center'>Stay informed with expert insights on aesthetic procedures, recovery tips, and industry innovations.</p>
                         </div>
                         <div className="col-md-1"></div>
-                        <div className="col-md-2">
+                        <div className="col-md-2 col-6 mb-2">
                             <Link href="/" className='btn btn-primary w-100 text-white'>Show All</Link>
                         </div>
-                        <div className="col-md-2">
+                        <div className="col-md-2 col-6 mb-2">
                             <Link href="/" className='btn btn-primary w-100 text-white'>Breast Implant</Link>
                         </div>
-                        <div className="col-md-2">
+                        <div className="col-md-2 col-6 mb-2">
                             <Link href="/" className='btn btn-primary w-100 text-white'>Cosmetic Surgery</Link>
                         </div>
-                        <div className="col-md-2">
+                        <div className="col-md-2 col-6 mb-2">
                             <Link href="/" className='btn btn-primary w-100 text-white  '>Hair Transplant</Link>
                         </div>
-                        <div className="col-md-2">
+                        <div className="col-md-2 col-6 col-12">
                             <Link href="/" className='btn btn-primary w-100 text-white'>Mommy Makeover</Link>
                         </div>
                         <div className="col-md-1"></div>

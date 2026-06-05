@@ -626,3 +626,136 @@ iframe{
   border-radius: 10px;
   object-fit: cover;
 }
+@media (max-width: 768px) {
+  .footerMenu ul{
+    text-align: center;
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: center !important;
+  }
+  .social ul{
+    justify-content: center !important;
+  }
+  .copyright p, .copyright a{
+    text-align: center;
+  }
+  h2{
+    font-size: 28px !important;
+  }
+  .form-group{
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .infoBox{
+    margin-bottom: 10px !important;
+  }
+  .infoBox p {
+    height: fit-content !important;
+  } 
+  .instagram img{
+    height: fit-content !important;
+  }
+  .instagram h4 {
+    font-size: 18px !important;
+  }
+  .instagram p{
+    font-size: 14px;
+  }
+  .blogs a{
+    font-size: 10px !important;
+  }
+  .btn-primary{
+    font-size: 12px !important;
+  }
+  .reviews h2{
+    font-size: 30px !important;
+  }
+  .revBox p{
+    font-size: 18px !important;
+  }
+  .revBox h4{
+    font-size: 20px !important;
+  }
+  .vid{
+    margin-top: 15px !important;
+  }
+  .vid iframe {
+    min-height: 200px !important;
+    height: 100% !important;
+  }
+  .outside{
+    padding: 50px 0px
+  }
+  .outBox h2, .outBox strong{
+    text-align: center !important;
+    font-style: normal !important;
+  }
+  .lead{
+    font-size: 20px !important;
+    text-align: center !important;
+  }
+  .facBox p {
+    font-size: 15px;
+    display: flex;
+  }
+  .facBox i{
+    margin-right: 10px;
+    height: fit-content;
+  }
+  .aboutAmit p, .about p{
+    text-align: justify;
+    margin-bottom: 0px;
+  }
+  .aboutAmit{
+    margin-bottom: 15px;
+  }
+  .achievement h4 {
+    font-size: 15px !important;
+  }
+  .list li{
+    display: flex !important;
+  }
+  .list li i{
+    margin-right: 10px !important;
+    height: fit-content !important; 
+  }
+  .blockquote h5{
+      font-size: 20px;
+      padding-bottom: 20px;
+  }
+  .blockquote h4 {
+      font-size: 50px;
+      line-height: 40px;
+  }
+  .about h3{
+    font-size: 22px !important;
+  }
+  .about .lead {
+    font-size: 15px !important;
+    margin-bottom: 15px !important;
+  }
+  .procedureBox h3 {
+      font-size: 16px !important;
+      margin-top: 10px !important;
+  }
+  .procedures h5{
+    padding: 50px 0 0 !important;
+  }
+  .procedureList{
+    margin-bottom: 20px;
+  }
+  .contact ul{
+    display: block;
+    text-align: center;
+  }
+  .topMenu{
+    display: none !important;
+  }
+  .procedure h5{
+    font-size: 13px;
+  }
+  .procedureMenu{
+    display: none;
+  }
+}
+

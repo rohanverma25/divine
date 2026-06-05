@@ -7,7 +7,7 @@ export default function Header() {
     <Topbar />
     <header className="container">
       <div className="row align-items-center">
-        <div className="col-md-2">
+        <div className="col-md-2 col-6">
             <div className='logo'>
                 <Image
                     src="/images/divine-long-logo.webp"
@@ -17,7 +17,7 @@ export default function Header() {
                 />
             </div>
         </div>
-        <div className="col-md-10">
+        <div className="col-md-10 col-6">
             <div className="topMenu">
                 <ul className="justify-content-end">
                     <li><Link href="/"><i className="fa fa-home" /></Link></li>
@@ -32,6 +32,11 @@ export default function Header() {
                     <li><i className="fa fa-search" /></li>
                 </ul>
             </div>
+            <div className='text-right'>
+            <button type="button" className='btn btn-primary p-2'>
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            </div>
         </div>
       </div>
     </header>
@@ -41,9 +46,6 @@ export default function Header() {
                 <div className="col-md-12">
                     <nav className="navbar navbar-expand-lg p-0">
                         <div className="container-fluid">
-                            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span className="navbar-toggler-icon"></span>
-                            </button>
                             <div className="navbar-collapse" id="navbarSupportedContent">
                             <ul className="navbar-nav m-auto mb-2 mb-lg-0">
                                 <li className="nav-item" >
