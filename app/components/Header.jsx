@@ -33,7 +33,7 @@ export default function Header() {
                 </ul>
             </div>
             <div className='text-right'>
-            <button type="button" className='btn btn-primary p-2'>
+            <button type="button" className='btn btn-primary p-2 mobile'>
                 <i className="fa-solid fa-bars"></i>
             </button>
             </div>
